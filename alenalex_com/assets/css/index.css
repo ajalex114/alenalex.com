@@ -4,6 +4,8 @@ body {
   flex-direction: row;
   align-items: center;
   background-image: var(--bg-img);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main-content {
@@ -12,9 +14,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.content {
   height: 90vh;
   width: 93vw;
   background-color: var(--bg-color);
