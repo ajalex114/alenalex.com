@@ -1,6 +1,6 @@
 
 :root {
-  --bg-img: url("../img/p4.jpg");
+  --bg-img: url(../img/p4.jpg);
   --bg-color: rgba(220, 225, 231, 0.5);
   --bg-side-color: rgba(220, 225, 231, 0.5);
   --primary-text-color: #222;
