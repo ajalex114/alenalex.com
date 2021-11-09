@@ -1,0 +1,26 @@
+
+:root {
+  --bg-img: url("../img/p4.jpg");
+  --bg-color: rgba(220, 225, 231, 0.5);
+  --bg-side-color: rgba(220, 225, 231, 0.5);
+  --primary-text-color: #222;
+  --secondary-text-color: #444;
+  --sun-visible: visible;
+  --moon-visible: hidden;
+  --sun-display: none;
+  --moon-display: absolute;
+  --icon-color: black;
+}
+
+.dark-mode {
+  /* --bg-img: url("img/p6\ dark.jpg"); */
+  --bg-color: rgba(20, 21, 22, 0.8);
+  --bg-side-color: rgba(50, 53, 54, 0.8);
+  --primary-text-color: #fff;
+  --secondary-text-color: #ddd;
+  --sun-visible: hidden;
+  --moon-visible: visible;
+  --sun-display: absolute;
+  --moon-display: none;
+  --icon-color: white;
+}
