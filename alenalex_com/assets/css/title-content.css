@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-.title-text {
+.title-text-content {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -17,13 +17,14 @@
   font-size: 40px;
   font-family: 'Trebuchet MS', sans-serif;
   margin: 20px 20px;
+  text-align: center;
 }
 
 .title-icon-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100px;
+  height: 100px;  
 }
 
 .title-coding-icon-content {
@@ -56,4 +57,5 @@
 .title-image {
   height: 80%;
   width: 80%;
+  text-align: center;
 }
