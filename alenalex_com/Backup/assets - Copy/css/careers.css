@@ -1,0 +1,50 @@
+:root {
+  --career-bg-color: rgba(255, 255, 255, 0.8);
+}
+
+.dark-mode {
+  --career-bg-color: rgba(20, 21, 22, 0.8);
+}
+
+.career-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--career-bg-color);
+  /* box-shadow: 4px 3px 8px 1px #222; */
+  border: #222;
+  border-radius: 8px;
+  height: 25vh;
+  width: 93vw;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.career-title {
+  margin: 50px;
+  margin-bottom: 5px;;
+  text-align: left;
+}
+
+.career-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.career-logo {
+  justify-self: center;
+  height: 150px;
+  width: 400px;
+  margin-right: 50px;
+  margin-top: 0px;  
+}
+
+.microsoft-logo {
+  margin-left: -20px;
+}
+
+.infosys-logo {
+    height: 50px;
+    width: 200px;
+}

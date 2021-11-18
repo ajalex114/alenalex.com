@@ -1,0 +1,32 @@
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  margin-left: 70px;  
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text-color);
+}
+
+.icon:hover {
+  font-size: 23px;
+}
+
+.icon {
+  color: var(--icon-color);
+}
+
+p {
+  color: var(--secondary-text-color);
+  margin: 20px 20px;
+}

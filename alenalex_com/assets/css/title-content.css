@@ -1,23 +1,46 @@
 
 .title-content {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100%;
-}
-
-.title-text-content {
-  width: 40%;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.title-name {
-  font-size: 40px;
-  font-family: 'Trebuchet MS', sans-serif;
-  margin: 20px 20px;
-  text-align: center;
+.title {
+  width: 100%;
+  font-family: Inter;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.01em;
+
+  color: #527deb;
+}
+
+.title-image-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-image {
+  justify-self: center;
+  height: 100%;
+  width: 100%;
+  border-width: 10px;
+  border: #6b8feb;
+  border-radius: 316px;
+  z-index: 1;
+}
+
+.title-image-dot {
+  height: 30%;
+  width: 35%;
+  margin-top: 20%;
+  border-radius: 80%;
+  background: #A0B6EF;
+  filter: blur(200px);
+  position: absolute;
+  z-index: 0;
 }
 
 .title-icon-content {
@@ -45,17 +68,4 @@
 .title-icon {
   font-size: 22px;
   margin: 10px;
-}
-
-.title-image-content {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title-image {
-  height: 80%;
-  width: 80%;
-  text-align: center;
 }

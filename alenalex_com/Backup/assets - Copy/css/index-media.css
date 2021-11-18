@@ -1,0 +1,16 @@
+@media screen and (max-width: 1025px) {
+
+    .main-content {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 98vw;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .main-content {
+        width: 94vw;
+    }
+}

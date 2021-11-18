@@ -1,7 +1,7 @@
 
 :root {
   --bg-img: url(../img/p4.jpg);
-  --bg-color: rgba(255, 255, 255, 0.21);
+  --bg-color: rgba(220, 225, 231, 0.5);
   --bg-side-color: rgba(220, 225, 231, 0.5);
   --primary-text-color: #222;
   --secondary-text-color: #444;
@@ -9,7 +9,7 @@
   --moon-visible: hidden;
   --sun-display: none;
   --moon-display: absolute;
-  --icon-color: #5d86f0;
+  --icon-color: black;
 }
 
 .dark-mode {
