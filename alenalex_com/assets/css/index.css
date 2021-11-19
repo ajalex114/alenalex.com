@@ -63,10 +63,17 @@ p {
   align-items: center;
   vertical-align: middle;
   display: flex;
+  transition: box-shadow 500ms;
+  z-index: 0;
 }
 
 .logo {
   width: 100%;
+}
+
+.logo-content:hover {
+  box-shadow: 0px 0px 15px rgb(138, 19, 185, 0.8);
+  transition: box-shadow 800ms;
 }
 
 .pet-project-items-container {
@@ -76,7 +83,15 @@ p {
 .pet-project-item {
   display: flex;
   flex-direction: row;
-  margin: 60px 0px;
+  margin: 60px 10px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: box-shadow 700ms;
+}
+
+.pet-project-item:hover {
+  box-shadow: 0px 0px 15px rgba(65, 113, 236, 0.4);
+  transition: box-shadow 700ms;
 }
 
 .pet-project-content-desc {
@@ -101,6 +116,11 @@ p {
   color: white;
 }
 
+.pet-project-item--link:hover {
+  box-shadow: 0px 5px 15px rgb(33, 75, 182);
+  transition: box-shadow 200ms;
+}
+
 .thumbprint {
   margin-right: 20px;
 }
@@ -109,5 +129,21 @@ p {
   border-width: 3px;
   border-color: rgba(0, 71, 250, 0.2);
   border-style: solid;
+  border-radius: 11px;
+  box-shadow: 0px 5px 15px rgba(65, 113, 236, 0.3);
   width: 100%;
+  transition: box-shadow 800ms;
+}
+
+.thumbprint-img:hover {
+  box-shadow: 0px 5px 15px rgba(65, 113, 236, 0.9);
+  transition: box-shadow 800ms;
+}
+
+hr {
+  margin: 30px;
+}
+
+hr:hover {
+  color: rgb(131, 11, 179);
 }
