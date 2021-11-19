@@ -1,3 +1,12 @@
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+
 .title-content {
   display: flex;
   flex-direction: column;
