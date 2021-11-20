@@ -1,0 +1,8 @@
+@media screen and (max-width: 720px) {
+  .logo-content {
+    height: 6vh;
+  }
+  .spacer {
+    display: none;
+  }
+}

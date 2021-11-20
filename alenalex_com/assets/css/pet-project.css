@@ -1,8 +1,8 @@
-
 .pet-project-items-container {
   margin-top: 50px;
 }
 
+.pet-project-item-2,
 .pet-project-item {
   display: flex;
   flex-direction: row;
@@ -12,6 +12,11 @@
   transition: box-shadow 700ms;
 }
 
+.pet-project-item-2 {
+  flex-direction: row-reverse;
+}
+
+.pet-project-item-2:hover,
 .pet-project-item:hover {
   box-shadow: 0px 0px 15px rgba(65, 113, 236, 0.4);
   transition: box-shadow 700ms;
@@ -37,6 +42,7 @@
   box-shadow: 0px 5px 15px rgba(65, 113, 236, 0.8);
   padding: 5px 10px;
   color: white;
+  margin: 10px 0px;
 }
 
 .pet-project-item--link:hover {
@@ -46,6 +52,7 @@
 
 .thumbprint {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .thumbprint-img {
@@ -61,4 +68,9 @@
 .thumbprint-img:hover {
   box-shadow: 0px 5px 15px rgba(65, 113, 236, 0.9);
   transition: box-shadow 800ms;
+}
+
+.pet-hr {
+  margin: 0px 200px;
+  color: rgb(223, 79, 31);
 }

@@ -21,7 +21,6 @@ body {
 
   border-radius: 16px;
   padding-bottom: 30px;
-
 }
 
 .icon:hover {
@@ -37,8 +36,6 @@ p {
   color: var(--secondary-text-color);
   margin: 20px 20px;
 }
-
-
 
 hr {
   margin: 30px;
