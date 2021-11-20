@@ -1,0 +1,11 @@
+@media screen and (max-width: 720px) {
+  .pet-project-item,
+  .pet-project-item-2 {
+    flex-direction: column;
+    box-shadow: 0px 0px 15px rgba(65, 113, 236, 0.2);
+  }
+
+  .pet-hr {
+    margin: 0px 100px;
+  }
+}
