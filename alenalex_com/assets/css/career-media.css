@@ -5,4 +5,24 @@
   .spacer {
     display: none;
   }
+
+  .career-logos-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-content {
+    min-height: 10vh;
+    max-height: 10vh;
+    height: 10vh;
+    width: 50%;
+    padding: 20px;
+    /* justify-self: center; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+/* 
+  .logo {
+    width: 50%;
+  } */
 }
